@@ -1,7 +1,5 @@
 dependency_overrides:
 # where are we? flutter/utils/perception/auth/<here>
-  # locator_for_perception:
-  #   path: ../../locator_for_perception
   # percepts:
   #   path: ../../percepts
   # framing_in_perception:
@@ -10,6 +8,8 @@ dependency_overrides:
     path: ../../abstractions
   # error_correction_in_perception:
   #   path: ../../error_correction_in_perception
+  locator_for_perception:
+    path: ../../locator_for_perception
 
   # enspyr_lints:
   #   path: 

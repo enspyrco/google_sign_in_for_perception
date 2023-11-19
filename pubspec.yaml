@@ -4,8 +4,10 @@ version: 0.0.0-a1
 publish_to: none
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.2.0 <4.0.0'
   flutter: ">=1.17.0"
+
+google_sign_in: ^6.1.4
 
 dependencies:
   flutter:
@@ -13,6 +15,8 @@ dependencies:
   
   abstractions:
     git: https://github.com/enspyrco/abstractions
+  locator_for_perception:
+    git: https://github.com/enspyrco/locator_for_perception
   
   json_utils:
     git: https://github.com/enspyrco/json_utils
